@@ -98,10 +98,10 @@ Proses migrasi dilakukan secara bertahap, mulai dari mempelajari sistem lama, me
 
 ```mermaid
 flowchart LR
-    A["1. Legacy Analysis"] --> B["2. Flask Template Adjustment"]
-    B --> C["3. Development & DB Migration"]
-    C --> D["4. Testing & Debugging"]
-    D --> E["5. Server Upload & Review"]
+    A["Step 1<br/>Legacy Analysis"] --> B["Step 2<br/>Flask Template Adjustment"]
+    B --> C["Step 3<br/>Development and DB Migration"]
+    C --> D["Step 4<br/>Testing and Debugging"]
+    D --> E["Step 5<br/>Server Upload and Review"]
 ```
 
 <details>
